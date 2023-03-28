@@ -101,10 +101,11 @@ a {
 
 @media (min-width: 768px) {
     .join {
-        padding: 2.4rem 4.1rem;
+        padding: 2rem 4.1rem;
         grid-column: 1 / 3;
         grid-row: 1 / 2;
         height: 100%;
+        border-radius: 1rem 1rem 0 0;
     }
 
     .join__title {
@@ -175,6 +176,7 @@ a {
     .subscription {
         height: 100%;
         padding: 2.5rem 3.8rem;
+        border-radius: 0 0 0 1rem;
     }
 
     .subscription__price {
@@ -211,5 +213,6 @@ a {
     .whyus {
         height: 100%;
         padding: 2.5rem 3.8rem;
+        border-radius: 0 0 1rem 0;
     }
 }
